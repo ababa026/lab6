@@ -68,7 +68,7 @@ function isMonth(ccv){
   }
 }
 
-function isDate(ccv){
+function isYear(ccv){
   var regex = /^[0-9]{4}$/;
   var ccv = document.getElementById(ccv).value;
   if(!regex.test(ccv)) {
